@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="porg-page-estilo.css">
     <link rel="icon" href="imagens/porg-icon.png" type="image/png">
   </head>
-  <body>
-  	<div class="fade">
+  <body id="body">
+  	<div id="header">
   		<h1 class="titulo"><img class="imagem-titulo" src="imagens/porg-icon.png" alt="Porg">Porg Page</h1>
   	  <h3 class="subtitulo">Uma wiki sobre os seres mais estranhamente fofos do universo de Star Wars</h3>
   	</div>
 
-  	<section class="abertura-star-wars">
+  	<section id="aberturaHomeAnimada" class="abertura-home-animada">
   		<div class="crawl">
   	    	<p>Os Porgs foram uma espécie de ave marinha. Eles eram nativos do planeta Ahch-To, onde o Mestre Jedi Luke Skywalker fez seu exílio nos anos anteriores à Batalha de Crait.</p>
   	    	<p>Na época da guerra da Primeira Ordem e da Resistência, quando Luke jogou seu sabre de luz de um penhasco, dois porgs investigaram a arma. As aves quase a ativaram, antes de serem espantadas por Rey. Pouco depois, outro porg assistiu com curiosidade de seu ninho, enquanto o Mestre Jedi saía de um penhasco da ilha.</p>
@@ -22,8 +22,19 @@
   		</div>
   	</section>
 
+    <section id="aberturaHomeEstatica" class="abertura-home-estatica">
+      <div class="div-texto-home">
+          <p>Os Porgs foram uma espécie de ave marinha. Eles eram nativos do planeta Ahch-To, onde o Mestre Jedi Luke Skywalker fez seu exílio nos anos anteriores à Batalha de Crait.</p>
+          <p>Na época da guerra da Primeira Ordem e da Resistência, quando Luke jogou seu sabre de luz de um penhasco, dois porgs investigaram a arma. As aves quase a ativaram, antes de serem espantadas por Rey. Pouco depois, outro porg assistiu com curiosidade de seu ninho, enquanto o Mestre Jedi saía de um penhasco da ilha.</p>
+          <p>Enquanto permanecia em Ahch-To, o Wookiee Chewbacca assou dois porgs para o jantar. Alguns dos pássaros o encararam antes que ele pudesse dar uma mordida, mas Chewbacca os assustou.</p>
+          <p>Mais tarde, pelo menos quatro porgs encontraram seu caminho a bordo da Millennium Falcon e fizeram um ninho. Um deles acompanhou Chewbacca durante a Batalha de Crait. Apesar de ter um antagonismo inicial com os porgs, Chewbacca passou a gostar deles e se tornou seu amigo...</p>
+      </div>
+    </section>
+
     <footer>
-  		<h4 class="texto-footer">Caso queira, você pode pular a animação da abertura e ler as informações aqui.</h4>
+  		<h4 class="texto-footer">Caso queira, você pode ver a animação da abertura <a href="#" onclick="mudaAberturaHome();return false;">aqui.</a></h4>
   	</footer>
+
+    <script src="porg-page-script.js"></script>
   </body>
 </html>
