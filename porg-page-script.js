@@ -13,6 +13,9 @@ function mudaAberturaHomeParaAnimada() {
 	document.getElementById("header").classList.add("fade");
 	document.getElementById("titulo").style.marginTop = "25px";
 	document.getElementById("textoFooter").innerHTML="Caso queira, você pode voltar a ver as informações no formato texto ";
+	setTimeout(function(){
+		mudaAberturaHome();
+	},50000);
 }
 
 function mudaAberturaHomeParaEstatica() {
