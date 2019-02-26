@@ -129,6 +129,10 @@ a:hover {
   .div-texto-home {
     width: 75%;
   }
+  .abertura-home-animada {
+    font-size: 300%;
+    letter-spacing: normal;
+  }
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) { 
@@ -138,6 +142,10 @@ a:hover {
   .div-texto-home {
     width: 65%;
   }
+  .abertura-home-animada {
+    font-size: 350%;
+    letter-spacing: 2px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) { 
@@ -146,5 +154,9 @@ a:hover {
   }
   .div-texto-home {
     width: 55%;
+  }
+  .abertura-home-animada {
+    font-size: 450%;
+    letter-spacing: 4px;
   }
 }
